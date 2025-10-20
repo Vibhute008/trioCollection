@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Toaster } from 'sonner'
 import { Navbar } from './components/Navbar'
 import { Footer } from './components/Footer'
-import { AdminKeyboardShortcut } from './components/AdminKeyboardShortcut'
+// import { AdminKeyboardShortcut } from './components/AdminKeyboardShortcut'
 import { HomePage } from './pages/HomePage'
 import { ShopPage } from './pages/ShopPage'
 import { ProductDetailPage } from './pages/ProductDetailPage'
@@ -17,7 +17,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="flex flex-col min-h-screen">
-        <AdminKeyboardShortcut />
+        {/* <AdminKeyboardShortcut /> */}
         <Toaster position="top-right" richColors />
         
         <Routes>
